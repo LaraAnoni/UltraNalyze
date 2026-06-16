@@ -2,11 +2,14 @@
 
 UltraNalyze is a graphical application for ultrasonic signal analysis and harmonic characterization.
 
-## Funcionalidades
+## Features
 
-- Função 1
-- Função 2
-- Função 3
+- Determination of harmonics and related nonlinear parameters
+- Determination of Side Peak Count and Energy Distributions
+- Determination of TOF
+- Raw data from ultrasonic processing devices
+- Generation of synthetic waveforms for testing
+- Processing of multiple files at once
 
 ## Download
 
@@ -19,9 +22,3 @@ The complete source code is available in this repository.
 ## License
 
 Apache License 2.0
-
-## Instalation
-
-```bash
-pip install -r requirements.txt
-```
