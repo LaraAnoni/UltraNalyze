@@ -9,6 +9,7 @@ from scipy.signal import find_peaks
 from PIL import Image, ImageTk 
 import pandas as pd
 import os
+import sys
 from PIL import Image, ImageTk
 from tkinter import ttk, PhotoImage
 import csv
@@ -19,6 +20,13 @@ from PyEMD import EMD
 from scipy.signal import hilbert
 from scipy.integrate import trapz
 
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except AttributeError:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
 
 # Variáveis globais
 signal = None
@@ -959,11 +967,11 @@ def show_info_frame():
     # Criar a nova janela de informações
     info_window = ctk.CTkToplevel(app)
     info_window.title("About UltraNalyze")
-    info_window.iconbitmap("ultranalyze.ico")
+    info_window.iconbitmap(resource_path("ultranalyze.ico"))
     info_window.geometry("700x500")
     
     # Carregar a imagem
-    image_path = "ultranalyze.png"  # Substitua pelo caminho da sua imagem
+    image_path = resource_path("ultranalyze.png")  # Substitua pelo caminho da sua imagem
     image = Image.open(image_path)
     image = image.resize((350, 150))  # Ajuste o tamanho da imagem conforme necessário
     photo = ImageTk.PhotoImage(image)
@@ -1798,7 +1806,7 @@ def multiple_files():
 app = ctk.CTk()
 app.geometry("1000x700")
 app.title("Nonlinear ultrasound analysis")
-app.iconbitmap("ultranalyze.ico")
+app.iconbitmap(resource_path("ultranalyze.ico"))
 
 # Criar o widget Notebook para gerenciar abas
 notebook = ttk.Notebook(app)

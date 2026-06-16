@@ -5,7 +5,10 @@ a = Analysis(
     ['UltraNalyze.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[
+    ('ultranalyze.ico', '.'),
+    ('ultranalyze.png', '.'),
+],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
