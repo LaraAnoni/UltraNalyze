@@ -4,12 +4,12 @@ UltraNalyze is a graphical application for ultrasonic signal analysis and harmon
 
 ## Features
 
-- Determination of harmonics and related nonlinear parameters
-- Determination of Side Peak Count and Energy Distributions
-- Determination of TOF
-- Raw data from ultrasonic processing devices
-- Generation of synthetic waveforms for testing
-- Processing of multiple files at once
+- Automated processing and conditioning of raw ultrasonic data
+- Harmonic extraction and determination of nonlinear acoustic parameters
+- Side Peak Count (SPC) and energy distribution analysis
+- Time-of-Flight (TOF) determination
+- Synthetic waveform generation for validation and testing
+- Batch processing of multiple files
 
 ## Download
 
