@@ -31,6 +31,5 @@ Nevertheless, you may use it as seen fit.
 ## Acknowledgement
 
 <img width="993" height="512" alt="image" src="https://github.com/user-attachments/assets/8488b8a2-8224-4ab5-8c90-192814c3c17a" />
-<img width="993" height="512" alt="image" src="https://github.com/user-attachments/assets/15f70aaa-c08c-4475-8bd7-d8117d2ccba2" />
 <img width="1537" height="711" alt="image" src="https://github.com/user-attachments/assets/98e798af-50b6-49e3-a9a8-b00dccfd5be1" />
 
